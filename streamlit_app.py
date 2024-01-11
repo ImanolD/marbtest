@@ -11,19 +11,21 @@ st.set_page_config(page_title="MARB - Crea con Nosotros",
                    page_icon=":robot_face:",
                    layout="wide")
 st.image("https://cdn.shopify.com/s/files/1/0569/4295/2534/files/marbnegro.png?v=1704953829")
+
 st.title("Tu Creatividad en el Mundo MARB")
 st.caption("Te presentamos 'Crea con MARB', donde tu inspiración se convierte en realidad. Envía tus diseños y utiliza nuestra tecnología de visualización 3D para ver tus muebles en diferentes ambientes. Transforma tus ideas en innovaciones con MARB.")
 option = st.selectbox('¿Qué tipo de mueble estás imaginando?', ('Arturito', 'Espejo', 'Mesa', 'Cabecera', 'Comoda', 'Otro'))
 details = st.text_input('¿Qué características especiales tiene este mueble?')
 location = st.text_input('¿Donde quieres ubicar este mueble?')
 submitted = st.button("Generar", type="primary")
+st.text("V 0.0.1")
 prompt = ''
 # prompt = st.chat_input("¿Qué características especiales tiene este mueble y donde lo quieres ubicar?")
 
 
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
-REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
-REPLICATE_MODEL_ENDPOINTSTABILITY = st.secrets["REPLICATE_MODEL_ENDPOINTSTABILITY"]
+REPLICATE_API_TOKEN = "r8_EJ2Z6Nz5hjhHXoSes38PRct5Hze1TKI3X4IRV"
+REPLICATE_MODEL_ENDPOINTSTABILITY = "stability-ai/sdxl:2b017d9b67edd2ee1401238df49d75da53c523f36e363881e057f5dc3ed3c5b2"
 
 # Resources text, link, and logo
 replicate_text = "Regresar a la página de MARB"
