@@ -29,7 +29,7 @@ REPLICATE_MODEL_ENDPOINTSTABILITY = "stability-ai/sdxl:2b017d9b67edd2ee1401238df
 
 # Resources text, link, and logo
 replicate_text = "Regresar a la página de MARB"
-replicate_link = "https://replicate.com/stability-ai/sdxl"
+replicate_link = "https://5d5d6f-2.myshopify.com/"
 replicate_logo = "https://storage.googleapis.com/llama2_release/Screen%20Shot%202023-07-21%20at%2012.34.05%20PM.png"
 
 # Placeholders for images and gallery
