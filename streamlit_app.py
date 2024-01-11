@@ -24,8 +24,8 @@ prompt = ''
 
 
 # API Tokens and endpoints from `.streamlit/secrets.toml` file
-REPLICATE_API_TOKEN = "r8_EJ2Z6Nz5hjhHXoSes38PRct5Hze1TKI3X4IRV"
-REPLICATE_MODEL_ENDPOINTSTABILITY = "stability-ai/sdxl:2b017d9b67edd2ee1401238df49d75da53c523f36e363881e057f5dc3ed3c5b2"
+REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
+REPLICATE_MODEL_ENDPOINTSTABILITY = st.secrets["REPLICATE_MODEL_ENDPOINTSTABILITY"]
 
 # Resources text, link, and logo
 replicate_text = "Regresar a la página de MARB"
